@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1 user-scalable=no, shrink-to-fit=no">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Simple Calculator Harsh Trivedi</title>
+	<link rel="stylesheet" href="mcalci.css">
+	<link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-70447982-5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-70447982-5');
+</script>
+
+</head>
+
+<body>    <header style="position: fixed;background-color: white;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); width: 100%;border-radius: 20px;margin-right: 100px;z-index: 15;">
+    <!-- css for header section -->
+    <link rel="stylesheet" href="style.css">
+    <table style="margin: 0;">
+        <tr style="display: flex;">
+            <td style="padding-right: 300px;">
+                <img src="https://www.funlearning.com/static/img/logo.svg" height="50px" style="padding-left: 100px;">
+            </td>
+            <td>
+                <nav>
+                    <ul style="display: flex;">
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="#">WordPress</a>
+                        <!-- First Tier Drop Down -->
+                        <ul>
+                            <li><a href="#">Themes</a></li>
+                            <li><a href="#tut2">Plugins</a></li>
+                            <li><a href="learnimg lab.html">Tutorials</a></li>
+                        </ul>        
+                        </li>
+                        <li><a href="#">Web learnimg lab </a>
+                        <!-- First Tier Drop Down -->
+                        <ul>
+                            <li><a href="#tut">Resources</a></li>
+                            <li><a href="#con2">Links</a></li>
+                            <li><a href="#">Tutorials</a>
+                            <!-- Second Tier Drop Down -->
+                            <ul>
+                                <li><a href="learnimg lab.html">HTML/CSS</a></li>
+                                <li><a href="learnimg lab.html">C programming</a></li>
+                                <li><a href="learnimg lab.html">java</a></li>
+                                <li><a href="learnimg lab.html">linux</a></li>
+                                <li><a href="learnimg lab.html">Python</a></li>
+                                <li><a href="#">Other</a>
+                                </li>
+                            </ul>
+                            </li>
+                        </ul>
+                        </li>
+                        <li><a href="draw.html">Graphic Design</a></li>
+                        <li><a href="#">calculators</a>
+                        <!-- Tier Drop Down -->
+                        <ul>
+                            <li><a href="age.html">Age calci</a></li>
+                            <li><a href="bmi.html">BMI</a></li>
+                            <li><a href="mcalci.html">Math calci</a></li>
+                        </ul>        
+                    </li>   
+                        <li><a href="#con">Contact</a></li>
+                        <li><a href="#con4">About</a></li>
+                    </ul>
+                </nav>
+            </td>
+        </tr>
+    </table>
+
+</header>
+	<div class="container">
+		<h1><a style="text-decoration: none; color: #f1c40f; margin-left: 0.25rem;" href="" onclick="location.reload();">CALCULATOR</a></h1 >
+		<div class="calculator">
+			<input type="text" name="screen" id="answer" readonly>
+			<table>
+				<tr>
+					<td><button>(</button></td>
+					<td><button>)</button></td>
+					<td><button style="background-color: #f01600; font-weight: bold; color: #ecf0f1;">C</button></td>
+					<td><button>%</button></td>
+				</tr>
+				<tr>
+					<td><button>7</button></td>
+					<td><button>8</button></td>
+					<td><button>9</button></td>
+					<td><button>X</button></td>
+				</tr>
+				<tr>
+					<td><button>4</button></td>
+					<td><button>5</button></td>
+					<td><button>6</button></td>
+					<td><button>-</button></td>
+				</tr>
+				<tr>
+					<td><button>1</button></td>
+					<td><button>2</button></td>
+					<td><button>3</button></td>
+					<td><button>+</button></td>
+				</tr>
+				<tr>
+					<td><button>0</button></td>
+					<td><button style="font-weight: bold;">.</button></td>
+					<td><button>/</button></td>
+					<td><button style="background-color: #25db72; font-weight: bold; color: #ecf0f1;">=</button></td>
+				</tr>
+			</table>
+			<hr style="max-width: 50vw;">
+			<div style="font-size:1rem; display: flex; align-items: center; justify-content: center;color: white;">Made by Sarthak Aggarwal</div>
+		</div>
+	</div>
+    <div id="turn">
+    PLEASE TURN YOUR DEVICE
+	</div>
+</body>
+<script src="calc.js"></script>
+</html>

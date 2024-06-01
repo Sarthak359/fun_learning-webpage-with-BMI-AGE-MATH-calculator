@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body background="red">
+    <header style="position: fixed;background-color: white;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); width: 100%;border-radius: 20px;margin-right: 100px;z-index: 15;">
+        <!-- css for header section -->
+        <link rel="stylesheet" href="style.css">
+        <table>
+            <tr>
+                <td style="padding-right: 300px;">
+                    <img src="https://www.funlearning.com/static/img/logo.svg" height="50px" style="padding-left: 100px;">
+                </td>
+                <td>
+                    <nav>
+                        <ul style="top: 0px;">
+                            <li><a href="home.html">Home</a></li>
+                            <li><a href="#">WordPress</a>
+                            <!-- First Tier Drop Down -->
+                            <ul>
+                                <li><a href="#">Themes</a></li>
+                                <li><a href="#">Plugins</a></li>
+                                <li><a href="learnimg lab.html">Tutorials</a></li>
+                            </ul>        
+                            </li>
+                            <li><a href="#">Web learnimg lab </a>
+                            <!-- First Tier Drop Down -->
+                            <ul>
+                                <li><a href="#">Resources</a></li>
+                                <li><a href="#">Links</a></li>
+                                <li><a href="#">Tutorials</a>
+                                <!-- Second Tier Drop Down -->
+                                <ul>
+                                    <li><a href="learnimg lab.html">HTML/CSS</a></li>
+                                    <li><a href="learnimg lab.html">C programming</a></li>
+                                    <li><a href="learnimg lab.html">java</a></li>
+                                    <li><a href="learnimg lab.html">linux</a></li>
+                                    <li><a href="learnimg lab.html">Python</a></li>
+                                    <li><a href="#">Other</a>
+                                    </li>
+                                </ul>
+                                </li>
+                            </ul>
+                            </li>
+                            <li><a href="draw.html">Graphic Design</a></li>
+                            <li><a href="#">calculators</a>
+                            <!-- Tier Drop Down -->
+                            <ul>
+                                <li><a href="age.html">Age calci</a></li>
+                                <li><a href="bmi.html">BMI</a></li>
+                                <li><a href="mcalci.html">Math calci</a></li>
+                            </ul>        
+                        </li>   
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">About</a></li>
+                        </ul>
+                    </nav>
+                </td>
+            </tr>
+        </table>
+
+    </header>
+    <main>
+        <section>
+            <input id="hex" placeholder="enter hex color" style="margin-left: 30%;margin-top: 100px;"></input>
+            <canvas id="draw" style="border: 2px solid rgb(0, 255, 255);width: 90%; height: 90%;margin-left: 70px;"></canvas>
+          
+            <script src="app.js"></script>
+        </section>
+
+    </main>
+</body>
+</html>
